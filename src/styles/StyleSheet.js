@@ -1,7 +1,7 @@
 import { StyleSheet } from 'react-native'
 
 
-
+// All css
 export const styles = StyleSheet.create({
     container: {
         flex: 1,
@@ -11,6 +11,7 @@ export const styles = StyleSheet.create({
         width: '100%',
         height: '100%'
     },
+
 
     image1: {
         width: 150,
