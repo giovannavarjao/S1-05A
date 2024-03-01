@@ -7,9 +7,14 @@ export const styles = StyleSheet.create({
         flex: 1,
     },
 
-    img: {
+    fundo: {
         width: '100%',
         height: '100%'
+    },
+
+    image1: {
+        width: 150,
+        height: 150,
     },
 
     secondaryContainer: {
@@ -18,11 +23,21 @@ export const styles = StyleSheet.create({
         justifyContent: 'center',
         alignItems: 'center',
     },
+
     inputName: {
-        height: 100,
+        height: 90,
         backgroundColor: 'pink',
         width: 300,
         justifyContent: 'center',
         alignItems: 'center',
+        borderColor: 'black',
+        borderWidth: 1,
+        margin: 20,
+    },
+
+    LoginText: {
+        textAlign: 'center',
     }
 })
+
+export default styles;
